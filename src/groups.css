@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    background-color: #cb7c05c4;
+    color: #ffff;
+    margin:0;
+    padding: 20px;
+  }
+
+  h3{
+    text-align: center;
+    color: #007bff;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  /* Container Styles */
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button Styles */
+  .group {
+    background-color: #ffff;
+    color: #bbb;
+    border: none;
+    padding: 20px;
+    font-size: 1rem;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 3px #d0d0d0;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .group:hover {
+    background-color: #d1d1d1;
+    transform: scale(1.05);
+  }
+  
+  .group:active {
+    transform: scale(1);
+  }
+  
+  /* Loading and Empty States */
+  p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  /* Customer List Styles */
+  .customer-list {
+    margin-top: 20px;
+  }
+  
+  .customer-list ul {
+    padding: 0;
+  }
+  
+  .customer-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    color: #595858
+  }
+  
+  .customer-list li:hover {
+    background-color: #e9ecef;
+  }
+  

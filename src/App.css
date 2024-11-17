@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1, h3 {
+  color: #444;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+label{
+  margin-left:15px;
+}
+
+input, select {
+  padding: 8px;
+  margin: 10px 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: calc(100% - 20px);
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Audience Creation Styles */
+.audience-creation {
+  text-align: left;
+}
+
+.condition {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.condition input, .condition select {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.audience-size {
+  font-size: 16px;
+  color: #007bff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.save-button {
+  display: flex;
+  justify-content: center;
+}
+
+.campaign-cont{
+display: flex;
+
+}
+
+.campaign-card {
+  background-color: #ffff;
+  color: #bbb;
+  border: none;
+  padding: 20px;
+  font-size: 1rem;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 3px #d0d0d0;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.campaign-card h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.campaign-card p {
+  margin: 5px 0;
+}
+
+.campaign-card strong {
+  color: #555;
+}
+
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+
+
