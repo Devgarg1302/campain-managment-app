@@ -28,9 +28,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/login" element={<GoogleLoginPage />} />
-          <Route path="/" element={<RequireAuth><AudienceCreation /></RequireAuth>} />
-          <Route path="/campaigns" element={<RequireAuth><CampaignHistory /></RequireAuth>} />
-          <Route path="/group" element={<RequireAuth><Groups /></RequireAuth>} />
+          <Route path="/" element={<AudienceCreation />} />
+          <Route path="/campaigns" element={<CampaignHistory />} />
+          <Route path="/group" element={<Groups />} />
 
         </Routes>
       </Router>
